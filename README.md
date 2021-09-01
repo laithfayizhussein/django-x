@@ -1,3 +1,5 @@
+the pull requset https://github.com/laithfayizhussein/django-x/pull/1
+
 > A batteries-included Django starter project. For a production-ready version see the book [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
