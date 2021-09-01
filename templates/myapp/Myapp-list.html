@@ -1,0 +1,16 @@
+{% extends '_base.html' %}
+
+
+{% block content %}
+
+<a href="{% url 'myapp_create' %}">+ New Snack</a>
+<ul>
+  {% for myapp in myapp_list %}
+  <li>
+    <a href="{% url 'myapp_detail' myapp.pk %}">{{ myapp.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+
+{% endblock content %}
